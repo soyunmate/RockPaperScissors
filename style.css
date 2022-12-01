@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  max-width: 960px;
+  margin: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  align-items: center;
+  height: 200px;
+}
+
+.square {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.score {
+  display: flex;
+  color: red;
+  font-size: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-message {
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.game-state {
+  display: flex;
+  justify-content: center;
+}
